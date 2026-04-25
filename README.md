@@ -1,11 +1,9 @@
-# 🍺 Sistema de Inventario - Expendio API
+#  Sistema de Inventario - Expendio API
+Que onda mi inge, solo para que vayamos a la par en el proyecto
 
-Este es el sistema backend para la gestión del Expendio. Desarrollado con **FastAPI**, **Docker** y **MySQL**.
-
-## 🚀 Cómo empezar
-Para que el proyecto corra en tu máquina, solo necesitas tener **Docker Desktop** instalado.
-Que onda mi inge, solo para que vayamos a la par en el proyecto, solo tiene que clonar el repo
-1. Clona el repositorio.
+Este es el sistema backend para la gestión del Expendio. Desarrollado con **FastAPI**, **Docker** y **MySQL WorkBench**.
+Lo que tienes que hacer: 
+1. Clonar el repositorio.
 2. Luego una vez clonado y estes dentro del proyecto en vs code, abre la terminal (ctrl + j )
 
 3. Luego ejecuta este comando:

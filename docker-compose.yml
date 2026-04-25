@@ -1,0 +1,20 @@
+services:
+  db:
+    image: mysql:8.0
+    container_name: mysql_expendio
+    restart: always
+    environment:
+      MYSQL_DATABASE: expendio_db
+      MYSQL_ROOT_PASSWORD: root_password_123
+    ports:
+      - "3307:3306"
+
+  backend:
+    build: .
+    container_name: fastapi_expendio
+    ports:
+      - "8000:80"
+    volumes:
+      - ./app:/code/app
+    depends_on:
+      - db

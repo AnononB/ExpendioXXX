@@ -1,0 +1,13 @@
+# Python basura
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+
+# Docker basura
+.data/
+db_data/
+
+# no quites estowe
+.env
